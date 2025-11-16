@@ -36,6 +36,7 @@ __PROCEDURE:__
 
 __PROGRAM:__
 ```
+
 clear;
 clc;
 clear;
@@ -44,8 +45,8 @@ function X=f(x)
 z =3*(1-x)^2;
 X=x*z;
 endfunction
-a =1;
-b =2;
+a =2;
+b =3;
 EX=intg(a, b, f);
 function Y=c(y)
 z =3*(1-y)^2;
@@ -59,8 +60,8 @@ function X=g(x),
 z=3*(1-x)^2,
 X=x^2*z
 endfunction
-a=2;
-b=3;
+a=3;
+b=5;
 EX2=intg(a,b,g);
 function Y=h(y)
 z=3*(1-y)^2,
@@ -79,6 +80,7 @@ n1=max(size(y))-1;
 n2=max(size(x))-1;
 r=corr(x,y,n1);
 plot2d3('gnn',r);
+
 ```
 
 __OUTPUT GRAPH:__
