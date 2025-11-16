@@ -82,6 +82,7 @@ plot2d3('gnn',r);
 ```
 
 __OUTPUT GRAPH:__
+
 <img width="325" height="185" alt="5 1" src="https://github.com/user-attachments/assets/7c168048-678b-495b-ac11-03b517b5ca31" />
 
 <img width="833" height="403" alt="5" src="https://github.com/user-attachments/assets/1dd5b4db-e236-42c6-85bc-841ba321d510" />
