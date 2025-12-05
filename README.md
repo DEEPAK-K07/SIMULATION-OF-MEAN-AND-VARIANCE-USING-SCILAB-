@@ -42,30 +42,30 @@ clc;
 clear;
 //Mean
 function X=f(x)
-z =3*(1-x)^2;
-X=x*z;
+  z =3*(1-x)^2;
+  X=x*z;
 endfunction
 a =2;
 b =3;
 EX=intg(a, b, f);
 function Y=c(y)
-z =3*(1-y)^2;
-Y=y*z;
+  z =3*(1-y)^2;
+  Y=y*z;
 endfunction
 EY=intg(a, b, c);
 disp("i) Mean of X = ",EX);
 disp("ii)Mean of Y = ",EY);
 //variance
 function X=g(x),
-z=3*(1-x)^2,
-X=x^2*z
+  z=3*(1-x)^2,
+  X=x^2*z
 endfunction
 a=3;
 b=5;
 EX2=intg(a,b,g);
 function Y=h(y)
-z=3*(1-y)^2,
-Y=y^2*z
+  z=3*(1-y)^2,
+  Y=y^2*z
 endfunction
 EY2=intg(a,b,h);
 vX2=EX2-(EX)^2;
