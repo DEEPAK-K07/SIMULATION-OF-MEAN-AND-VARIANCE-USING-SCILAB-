@@ -35,7 +35,7 @@ __PROCEDURE:__
 6.Verify the generated results
 
 __PROGRAM:__
-```
+```c
 
 clear;
 clc;
