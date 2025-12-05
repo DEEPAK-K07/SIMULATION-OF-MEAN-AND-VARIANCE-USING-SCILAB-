@@ -78,7 +78,7 @@ x= input("type in the reference sequence=");
 y= input("type in the second sequence=");
 
 r=xcorr(x,y);
-plot2d3('gnn',r);
+plot2d3(r);
 xtitle("Cross-Correlation between x and y", "Lag", "Correlation Value");
 
 
